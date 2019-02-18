@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+p{
+  margin:20px;
+  text-align: justify;
+  width: 60%;
+}
+
+
+/* Style the header */
+.header {
+    background: url("assets/nature3.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+}
+
+
+
+/*Nav bar */
+  ul {
+    list-style-type: none;
+    margin-bottom: 5px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+	padding-left: 15px;
+    overflow: hidden;
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    font-size: 20px;
+    color: LightCoral;
+}
+.intro {
+  padding: 15px;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+  font-size: 30px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 40px;
+
+}
+.menu {
+  width: 50%;
+  float: left;
+  padding: 15px;
+}
+
+.main {
+  width: 30%;
+  height: 30%;
+  float: left;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 100px;
+  text-align: left;
+  color: white;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .main, .menu, .intro {
+        width: 100%;
+    }
+}

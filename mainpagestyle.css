@@ -88,10 +88,15 @@ li a:hover {
 
 /* Style the footer */
 footer {
-  background-color: rgba(0, 0, 0, 0.5);
-  margin-top: 100px;
-  text-align: left;
-  color: white;
+    padding: 10px;
+    margin-top: 20px;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:rgba(0, 0, 0, 0.5);
+ 
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
